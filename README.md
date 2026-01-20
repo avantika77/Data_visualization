@@ -42,4 +42,5 @@ Data_visualization/
 ├── reports/ # Analysis reports
 
 
+<img width="1024" height="1536" alt="b2fb5839-a2de-4ccb-b0d9-0541ed79881e" src="https://github.com/user-attachments/assets/6354aa19-2051-401a-a1c7-26b5478b5a78" />
 
