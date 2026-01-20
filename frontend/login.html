@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Students Performance Dashboard</title>
+  <link rel="stylesheet" href="css/login.css" />
+  <style>
+    /* Small title at top-left corner */
+    .top-title {
+      position: fixed;
+      top: 15px;
+      left: 20px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #000;
+    }
+
+    /* Footer at bottom-right corner */
+    .footer {
+      position: fixed;
+      bottom: 15px;
+      right: 20px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Top-left small title -->
+  <div class="top-title">
+    <b>Data Visualization Dashboard for Students Performance Analysis</b>
+  </div>
+
+  <div class="bg-doodle"></div>
+
+  <div class="login-container">
+    <div class="login-card">
+      <h2>Welcome Back 👋</h2>
+      <p class="subtitle">Log in to continue to your dashboard</p>
+
+      <form id="loginForm">
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-group">
+          <input type="password" id="password" required />
+          <label for="password">Password</label>
+        </div>
+
+        <button type="submit" class="btn-login">Login</button>
+      </form>
+
+      <p class="register-link">
+        Don’t have an account? <a href="register.html">Register</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer at bottom-right corner -->
+  <div class="footer">
+    Built by- Avantika Shrivastava<br>
+    Enrollment No:JNU-jpr-2023/01939 
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
