@@ -1,6 +1,6 @@
 /* login.css */
 
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,6 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Body & background */
 body {
   height: 100vh;
   display: flex;
@@ -34,7 +33,6 @@ body {
   text-align: center;
 }
 
-/* Headings */
 .login-card h2 {
   font-size: 26px;
   font-weight: 700;
@@ -47,7 +45,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* Input groups */
 .input-group {
   position: relative;
   margin-bottom: 25px;
@@ -95,7 +92,6 @@ body {
    Year   : 2025
     */
 
-/* Login button */
 .btn-login {
   width: 100%;
   padding: 12px 0;
@@ -113,7 +109,6 @@ body {
   opacity: 0.9;
 }
 
-/* Register link */
 .register-link {
   margin-top: 20px;
   font-size: 14px;
