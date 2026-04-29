@@ -41,5 +41,9 @@ Data_visualization/
 ├── visualizations/ # Charts and graphs
 ├── reports/ # Analysis reports
 
+## 🙌 Author
 
+Avantika Shrivastava
+
+GitHub: https://github.com/avantika77
 
